@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"text-colo",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"sto",
+				"strong\tTag"
+			],
+			[
+				"a",
+				"align-content\tproperty"
+			],
+			[
+				"Ekira",
+				"Ekiraccesorios"
+			],
+			[
+				"cen",
+				"text-center"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"fam",
+				"familiSanti"
+			],
+			[
+				"fami",
+				"familyJuli"
+			],
+			[
+				"next",
+				"nextLarger"
+			],
+			[
+				"per",
+				"permutations"
+			],
+			[
+				"strin",
+				"stringPermutation"
+			],
+			[
+				"permuta",
+				"permutations"
+			],
+			[
+				"max",
+				"maxFreq"
+			],
+			[
+				"tre",
+				"tree"
+			],
+			[
+				"search",
+				"SearchBox"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Sistema de reserva de Boletas\n\nAPI REST / Front que consuma el Servicio REST, no debe ser Laravel Blade\n\nregistro de compradores\n\nDisponibilidad de Boletas\n\nAsignacion de Boletas a los registrados\n\nEnviar a: esteban.flores@ogbconsultores.com\n\nBACKEND LARAVEL API REST\nFRONT END\nFUERA DE LARAVEL QUE CONSUMAN EL APIREST.\n\nPruebas unitarias\n\n\ncomposer create-project laravel/laravel api-rest-laravel \"8.*\" --prefer-dist\n\nphp artisan make:controller PsicoltktController\nphp artisan make:model Post\nphp artisan make:model Category\n\nphp artisan route:list\n\n\n{\"name\":\"Julian\",\"surname\":\"Andres\",\"email\":\"andrestelco@gmail.com\",\"password\":\"Psicol\"}\n{\"name\":\"Julian\",\"surname\":\"Andres\",\"email\":\"andrestelco@gmail.com\",\"password\":\"Psicol\"}\n\n// Librerias adicionales ( \"firebase/php-jwt\": \"3.0.0\")\ncomposer update\n\n\nphp artisan make:provider JwtAuthServiceProvider\n\n// MiddleWare: Es un metodo que se ejecuta antes de la accion de un controlador. es como un filtro\nphp artisan make:middleware ApiAuthMiddleware\n\n\n\n////NODE JS\n\nnpm install -g npm@latest\nnpm chache clean --force\nnpm set audit false\n\n// nuevo proyecto angular.\nng new \n\n// en la carpeta del proyecto\nng serve\n",
+			"file": "/Users/admin/Desktop/Prueba_Psicol",
+			"file_size": 1045,
+			"file_write_time": 132455764259747048,
+			"settings":
+			{
+				"buffer_size": 1164,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Sistema de reserva de Boletas"
+			}
+		},
+		{
+			"file": "/Users/admin/Documents/GitHub/Utilidades/Apuntes.js",
+			"settings":
+			{
+				"buffer_size": 5958,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control.sublime-package",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/Ampps/www/psicol"
+	],
+	"file_history":
+	[
+		"/Applications/Ampps/phpMyAdmin/config.inc.php",
+		"/Users/admin/Documents/GitHub/Utilidades/Apuntes.js",
+		"/Applications/Ampps/apache/conf/httpd.conf",
+		"/Users/admin/Documents/COPIA 2/wp-config.php",
+		"/Users/admin/Documents/COPIA 2/wp-settings.php",
+		"/Users/admin/Downloads/Insertar videos de YouTube sin perder performance. - Lógico Blog.html",
+		"/Users/admin/Documents/feria/index.html",
+		"/Users/admin/Documents/feria VERSION1/index.html",
+		"/Users/admin/Downloads/index.html",
+		"/Users/admin/Documents/feria/index_Meet.html",
+		"/Users/admin/Documents/Mujer10K_Archivos/FERIA MUJER10K/feria/index.html",
+		"/Users/admin/Documents/Mujer10K_Archivos/FERIA MUJER10K/24.01.2018/main-files/template/html/css/style.css",
+		"/Users/admin/Documents/Mujer10K_Archivos/FERIA MUJER10K/24.01.2018/main-files/template/html/index.html",
+		"/Users/admin/Documents/Mujer10K_Archivos/FERIA MUJER10K/24.01.2018/main-files/template/html/css/switcher.css",
+		"/Users/admin/Documents/Mujer10K_Archivos/FERIA MUJER10K/24.01.2018/main-files/template/html/css/color/pink.css",
+		"/Users/admin/Downloads/Descargas/edustage/index.html",
+		"/Users/admin/Desktop/edustage/ingreso.html",
+		"/Users/admin/Desktop/AESA V2/AESA INSTALADORES/themeforest-8WWbZrup-medigroup-a-modern-multidisciplinary-medical-health-theme/medigroup/assets/css/font-awesome/css/font-awesome.css",
+		"/Users/admin/Desktop/masvital/index.html",
+		"/Users/admin/Desktop/index.html",
+		"/Users/admin/Downloads/edustage/index.html",
+		"/Users/admin/Downloads/Coming Soon/08-comming-soon.html",
+		"/private/var/folders/rq/9k4lfly12n5960vlrzd6ql1w0000gn/T/com.microsoft.Excel/Reparar resultado para Ana María Villada Archivo de prueba (3)0.xml",
+		"/Users/admin/Downloads/sitemaps (2)/sitemap.xml",
+		"/Users/admin/Documents/GitHub/Utilidades/Apuntes PLSQL",
+		"/Applications/AMPPS/www/.htaccess",
+		"/Users/admin/Documents/GitHub/TestBootstrap/TestBootStrap.html",
+		"/Users/admin/Documents/Mujer10K_Archivos/themeforest-9eKO5kF4-kloe-fashion-lifestyle-multipurpose-theme/kloe/languages/kloe.pot",
+		"/Users/admin/Downloads/es_ES.po",
+		"/Users/admin/Documents/GitHub/WordSplit/style.css",
+		"/Users/admin/Documents/GitHub/Utilidades/test.js",
+		"/Users/admin/Documents/GitHub/complete-javascript-course/6-budgety/starter/index.html",
+		"/Users/admin/Documents/GitHub/Utilidades/test.html",
+		"/Users/admin/Documents/GitHub/WordSplit/WordSplit.html",
+		"/Users/admin/Documents/GitHub/WordSplit/WordSplit.js",
+		"/Users/admin/Documents/GitHub/complete-javascript-course/9-forkify/starter/package.json",
+		"/Users/admin/Documents/GitHub/Utilidades/Test.html",
+		"/Users/admin/Documents/GitHub/Utilidades/prueba.js",
+		"/Users/admin/Documents/GitHub/Robot/robofriends/public/manifest.json",
+		"/Users/admin/Documents/GitHub/Robot/robofriends/public/index.html",
+		"/Users/admin/Documents/GitHub/Robot/newreact/public/index.html",
+		"/Users/admin/Documents/GitHub/Robot/newreact/src/SearchBox.js",
+		"/Users/admin/Documents/GitHub/Robot/robofriends/src/index.js",
+		"/Applications/AMPPS/www/mfs/api-rest-laravel/vendor/symfony/console/Terminal.php",
+		"/Users/admin/Documents/GitHub/Robot/robofriends/package.json",
+		"/Users/admin/Documents/GitHub/sac/package.json",
+		"/Users/admin/Documents/GitHub/sac/style.css",
+		"/Users/admin/Documents/GitHub/sac/script.js",
+		"/Users/admin/Documents/GitHub/sac/index.html",
+		"/Users/admin/Documents/GitHub/Css/animate.css",
+		"/Users/admin/Desktop/Robot/style.css",
+		"/Users/admin/Desktop/Robot/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/admin/Desktop/Prueba_Psicol",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Sistema de reserva de Boletas",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/admin/Documents/GitHub/Utilidades/Apuntes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 225.0
+	},
+	"pinned_build_system": "",
+	"project": "Psicol.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
